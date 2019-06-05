@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+Theme Name: Hangar 2019
+Author: PlainJoe Studios
+Author URI: https://plainjoestudios.com/
+Description: This is a custom developed theme built by PlainJoe Studios for __________.
+Requires at least: WordPress 4.9.6
+Version: 1.0.0
+*/
+
+
+/* -------------------- Settings -------------------- */
+
+html,body {width:100%; height:100%; margin:0; padding:0; color:#202020; font:400 16px/32px 'Poppins', arial, sans-serif; letter-spacing:.03em; background:#fff;}
+header,nav,section,div,article,footer {width:auto; height:auto; margin:0 auto; padding:0; display:block; position:relative;}
+input,textarea,select {padding:10px; font:16px/32px 'Poppins'; letter-spacing:.03em; border:0; border-radius:0;}
+input::placeholder,textarea::placeholder {color:#aaa;}
+ul,ol {margin:0; padding:0 0 0 20px;}
+img {max-width:100%; height:auto; display:block;}
+a {color:#202020; text-decoration:none; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; transition:all .3s ease;}
+a:hover {color:#73825f;}
+p {margin:0 0 20px 0; padding:0;}
+h1 {margin:0; padding:0; font:700 34px 'Poppins'; text-transform:uppercase;}
+h2 {margin:0; padding:0; font:600 32px 'Poppins'; text-transform:uppercase;}
+h3 {margin:0; padding:0; font:600 24px 'Poppins'; text-transform:uppercase;}
+h4 {margin:0; padding:0; font:700 20px 'Poppins'; text-transform:uppercase;}
+h5 {margin:0; padding:0; font:600 16px 'Poppins';}
+
+::-moz-selection {background:#73825f; color:#fff; text-shadow:none;}
+::selection {background:#73825f; color:#fff; text-shadow:none;}
+
+#app {width:100%; min-height:100vh;}
+
+
+/* -------------------- Miscellaneous -------------------- */
+
+.trans {-webkit-transition:all .3s ease; -moz-transition:all .3s ease; transition:all .3s ease;}
+
+.btns {font-weight:700; font-size:16px; text-transform:uppercase;}
+  .btns a {min-width:160px; margin:20px 10px 0 10px; padding:10px 20px; color:#fff; text-align:center; border:2px solid #73825f; border-radius:3px; display:inline-block;}
+  .btns a:hover {background:#73825f;}
+  .btns a:last-child {margin:20px 0 0 10px;}
+  .btns a:first-child {margin:20px 10px 0 0;}
+
+.btns.green a {color:#73825f;}
+.btns.green a:hover {color:#fff;}
